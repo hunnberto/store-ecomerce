@@ -1,0 +1,21 @@
+{
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "extends": ["eslint:recommended", "prettier"],
+  "env": {
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "plugins": ["import"],
+  "rules": {
+    "no-console": "warn"
+  },
+  "sort-imports": [
+    "error",
+    {
+      "ignoreCase": false
+    }
+  ]
+}
